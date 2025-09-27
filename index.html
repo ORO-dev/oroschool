@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ORO — Landing</title>
+
+  <!-- Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <div class="brand">
+        <img src="oroschool logo.svg" alt="ORO logo"
+             onerror="this.src='oroschool logo.svg'">
+      </div>
+
+      <nav class="nav-center" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-download" onclick="location.href='#downloads'">⬇ Download</button>
+        <button class="hamburger">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <h1>A Smarter School Experience with <span class="brand-highlight">ORO</span></h1>
+        <p class="hero-sub">
+          Manage attendance, track grades, access study materials, and much more....<br> 
+          whether you're a student, teacher, or school administrator : ))
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn-outline hero-cta-btn" href="#downloads">Get the app</a>
+          <!-- <a class="btn-download" href="#downloads">⬇ Download</a> -->
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-illustration" data-aos="fade-left">
+          <img src="hero.png"
+               alt="ORO illustration"
+               onerror="this.onerror=null;this.src='/mnt/data/abb3f019-ce84-44fd-b90f-9f0285b70d88.png'">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="about-ill">
+        <img src="about.png" alt="" style="width:100%;border-radius:12px;box-shadow:0 18px 40px rgba(6,21,70,0.06)"
+             onerror="this.style.display='none'">
+      </div>
+      <div>
+        <h2>About Us</h2>
+        <h3>Make Sure Your Work Easier With Us</h3>
+        <p>
+          Our platform simplifies school life for students, teachers, and school admins by
+          offering a centralized space to manage attendance, class schedules, academic performance,
+          materials, and more. Designed with flexibility in mind, it supports each user's role with
+          the right tools — anytime, anywhere.
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services" data-aos="fade-up">
+      <h2>Services</h2>
+      <h3>One Platform. Every Role. Total Control</h3>
+      <p style="max-width:760px;margin:12px auto 0;color:var(--muted)">
+        Whether you're an admin, teacher, student, or parent — ORO gives you the tools to manage time, stay informed, and stay ahead. Now with a mobile app to keep everything at your fingertips.
+      </p>
+
+      <div class="service-grid">
+        <!-- Row 1 -->
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="80">
+          <img class="service-ill" src="mobile app.png" alt="Mobile app"
+               onload="this.nextElementSibling && (this.nextElementSibling.style.display='none')"
+               onerror="this.style.display='none'; this.nextElementSibling && (this.nextElementSibling.style.display='block')">
+          <div class="service-emoji" aria-hidden>📱</div>
+          <div class="service-card-content">
+            <h4>Mobile App</h4>
+            <p>Access Anytime</p>
+          </div>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="140">
+          <img class="service-ill" src="student.png" alt="Student"
+               onload="this.nextElementSibling && (this.nextElementSibling.style.display='none')"
+               onerror="this.style.display='none'; this.nextElementSibling && (this.nextElementSibling.style.display='block')">
+          <div class="service-emoji" aria-hidden>🎓</div>
+          <div class="service-card-content">
+            <h4>Student</h4>
+            <p>Your Study Hub</p>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+          <img class="service-ill" src="teacher.png" alt="Teacher"
+               onload="this.nextElementSibling && (this.nextElementSibling.style.display='none')"
+               onerror="this.style.display='none'; this.nextElementSibling && (this.nextElementSibling.style.display='block')">
+          <div class="service-emoji" aria-hidden>👩‍🏫</div>
+          <div class="service-card-content">
+            <h4>Teacher</h4>
+            <p>Manage Classes</p>
+          </div>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="260">
+          <img class="service-ill" src="admin.png" alt="Admin"
+               onload="this.nextElementSibling && (this.nextElementSibling.style.display='none')"
+               onerror="this.style.display='none'; this.nextElementSibling && (this.nextElementSibling.style.display='block')">
+          <div class="service-emoji" aria-hidden>🛠</div>
+          <div class="service-card-content">
+            <h4>Admin</h4>
+            <p>Full Control</p>
+          </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="320">
+          <img class="service-ill" src="Clock.png" alt="Time management"
+               onload="this.nextElementSibling && (this.nextElementSibling.style.display='none')"
+               onerror="this.style.display='none'; this.nextElementSibling && (this.nextElementSibling.style.display='block')">
+          <div class="service-emoji" aria-hidden>⏱</div>
+          <div class="service-card-content">
+            <h4>Time management</h4>
+            <p>Stay on Track</p>
+          </div>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="380">
+          <img class="service-ill" src="parent.png" alt="Parent"
+               onload="this.nextElementSibling && (this.nextElementSibling.style.display='none')"
+               onerror="this.style.display='none'; this.nextElementSibling && (this.nextElementSibling.style.display='block')">
+          <div class="service-emoji" aria-hidden>👨‍👩‍👧‍👦</div>
+          <div class="service-card-content">
+            <h4>Parent</h4>
+            <p>Track Progress</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- DOWNLOADS (anchor target ) - responsive version -->
+<section class="section panel downloads-panel" id="downloads" style="text-align:center">
+  <h2 class="downloads-title">Get the App</h2>
+  <h3 class="downloads-sub">Available on Android, iOS & Windows</h3>
+
+  <div class="badges" role="list" aria-label="Download options">
+    <!-- Android direct download -->
+    <a role="listitem" href="oro-android.apk" class="badge" title="Download for Android" download>
+      <img src="Google_Play.svg" alt="Download on Google Play">
+    </a>
+
+    <!-- iOS coming soon -->
+    <a role="listitem" href="#" class="badge badge-soon" title="Coming soon for iOS" onclick="event.preventDefault(); alert('Coming soon for iOS!');">
+      <img src="App Store Logo Download-light.svg" alt="Coming soon on App Store">
+    </a>
+
+    <!-- Windows direct download -->
+    <a role="listitem" href="oro-windows.exe" class="badge" title="Download for Windows" download>
+      <img src="Microsoft store.svg" alt="Download for Windows">
+    </a>
+  </div>
+</section>
+
+  </main>
+
+<!-- Footer HTML (image replaces the "ORO" word) -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-left">
+      <div class="copyright">
+        © 2025
+        <img class="logo-inline" src="logo-footer.png" alt="ORO logo">
+        Platform. All rights reserved.
+      </div>
+    </div>
+
+    <div class="footer-center">
+      <a href="https://www.instagram.com/oro.dev/" target="_blank" rel="noopener">Instagram</a>
+      <span style="opacity:0.35">|</span>
+      <a href="https://www.facebook.com/profile.php?id=61578733027429" target="_blank" rel="noopener">Facebook</a>
+    </div>
+
+    <div class="footer-right">
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+  <!-- AOS init -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
